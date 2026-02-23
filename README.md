@@ -3,7 +3,7 @@ Write a simple Python program for the modulation and demodulation of PSK and QPS
 # Tools required
 Google Colab
 # Program for PSK
-```
+```c
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -58,7 +58,7 @@ plt.tight_layout()
 plt.show()
 ```
 # Program for QPSK
-```
+```c
 import numpy as np
 import matplotlib.pyplot as plt
 
