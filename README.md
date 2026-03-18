@@ -1,9 +1,12 @@
+# PSK & QPSK
 # Aim
 Write a simple Python program for the modulation and demodulation of PSK and QPSK.
 # Tools required
-Google Colab
-# Program for PSK
-```c
+
+* VS Code
+# Program
+## PSK
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -56,9 +59,11 @@ plt.grid(True)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
 ```
-# Program for QPSK
-```c
+
+## QPSK
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -119,7 +124,7 @@ plt.figure(figsize=(10, 6))
 
 plt.subplot(3, 1, 1)
 plt.plot(inp_time, inp_wave, drawstyle='steps-post')
-plt.title('Input Bainar Data')
+plt.title('Input Binary Data')
 plt.ylim(-0.5, 1.5)
 plt.grid(True)
 
@@ -136,13 +141,14 @@ plt.tight_layout()
 plt.grid(True)
 plt.show()
 ```
-# Output Waveform for PSK
+# Output Waveform
 
-<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/17fa69f1-9db3-4661-9b09-d4816ad90e4f" />
+## PSK
+<img width="1919" height="1137" alt="image" src="https://github.com/user-attachments/assets/39dd0cb5-f181-47de-9edf-56c2b736f6d1" />
 
-# Output Waveform for QPSK
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/af067f85-6e5d-41b8-ba72-a23bbb18e165" />
+## QPSK
+<img width="1919" height="1136" alt="image" src="https://github.com/user-attachments/assets/43dbeb90-d4ad-4f6b-a454-fd7a4fb01f0c" />
 
 # Results
-The PSK and QPSK signals were successfully modulated and demodulated using CoLab
+The PSK and QPSK signals were successfully modulated and demodulated using python in VS Code
 
